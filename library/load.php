@@ -19,6 +19,6 @@ if (!file_exists(LIBRARY_PATH . '/Autoloader.php') || !is_readable(LIBRARY_PATH 
     die('autoloader couldn\'t loaded!');
 } else {
     require_once( LIBRARY_PATH . '/Autoloader.php' );
-    Autoloader::Register(LIBRARY_PATH);
+    Autoloader::register(LIBRARY_PATH);
 }
 ?>

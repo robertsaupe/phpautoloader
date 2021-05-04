@@ -16,11 +16,11 @@ define('APP_PATH', dirname(__FILE__));
 if (function_exists("chdir")) chdir(APP_PATH);
 
 //Library
-require_once(APP_PATH . '/Library/Load.php');
+require_once(APP_PATH . '/library/load.php');
 
 //define and read config (optional)
-if ( file_exists( APP_PATH . '/Configuration.php' ) && is_readable( APP_PATH . '/Configuration.php' ) ) {
-    require_once( APP_PATH . '/Configuration.php' );
+if ( file_exists( APP_PATH . '/configuration.php' ) && is_readable( APP_PATH . '/configuration.php' ) ) {
+    require_once( APP_PATH . '/configuration.php' );
 }
 
 //php debug

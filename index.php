@@ -10,7 +10,7 @@
  * @license MIT License
  */
 
-require_once( dirname(__FILE__) . '/Load.php' );
+require_once( dirname(__FILE__) . '/load.php' );
 
 //Example
 use RobertSaupe\Example\{Test};

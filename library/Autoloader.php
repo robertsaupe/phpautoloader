@@ -22,7 +22,7 @@ class Autoloader {
      * @param string $ext
      * @return void
      */
-    public static function Register(string $path, string $ext = '.php'):void {
+    public static function register(string $path, string $ext = '.php'):void {
         new self($path, $ext);
     }
 

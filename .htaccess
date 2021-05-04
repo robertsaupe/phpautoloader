@@ -1,4 +1,9 @@
-<Files Configuration.php>
+<Files configuration.php>
+Order deny, allow
+Deny from all
+</Files>
+
+<Files load.php>
 Order deny, allow
 Deny from all
 </Files>
