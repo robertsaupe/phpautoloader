@@ -10,9 +10,10 @@
  * @license MIT License
  */
 
+//load
 require_once( dirname(__FILE__) . '/load.php' );
 
-//Example
-use RobertSaupe\Example\{Test};
-$test = new Test('it works!');
+//example
+use example\test;
+$test = new test('it works!');
 ?>

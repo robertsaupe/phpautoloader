@@ -10,9 +10,9 @@
  * @license MIT License
  */
 
-namespace RobertSaupe\Example;
+namespace example;
 
-class Test {
+class test {
 
     public function __construct(string $text = 'test') {
         print($text);

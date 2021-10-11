@@ -15,7 +15,7 @@ if (PHP_MAJOR_VERSION < 8) die('This app works only with PHP 8.x or higher!');
 define('APP_PATH', dirname(__FILE__));
 if (function_exists("chdir")) chdir(APP_PATH);
 
-//Library
+//library
 require_once(APP_PATH . '/library/load.php');
 
 //define and read config (optional)

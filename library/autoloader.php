@@ -13,7 +13,7 @@
 /**
  * implements autoloader
  */
-class Autoloader {
+class autoloader {
 
     /**
      * registered an autoloader

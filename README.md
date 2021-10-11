@@ -1,4 +1,4 @@
-# phpAutoloader - a PHP based Autoloader
+# phpAutoloader - library autoloader for php8.x
 
 [Supporting](https://github.com/robertsaupe/phpautoloader#supporting) |
 [Features](https://github.com/robertsaupe/phpautoloader#features) |
